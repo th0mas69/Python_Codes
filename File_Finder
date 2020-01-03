@@ -1,0 +1,9 @@
+import os,glob
+
+os.chdir(r"\Users\Thomas Luke\Downloads")
+#For display images in the folder
+for file in glob.glob("*.jpg"):
+    print(file)
+#For display pdf files in the folder
+for doc in glob.glob("*.pdf"):
+    print(doc)
