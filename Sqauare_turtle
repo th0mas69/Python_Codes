@@ -1,0 +1,13 @@
+import turtle
+
+
+# Make a square with the turtle.
+
+aama_turtle = turtle.Turtle()
+aama_turtle.forward(100)
+aama_turtle.left(90)
+aama_turtle.forward(100)
+aama_turtle.left(90)
+aama_turtle.forward(100)
+aama_turtle.left(90)
+aama_turtle.forward(100)
